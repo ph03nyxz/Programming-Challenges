@@ -1,0 +1,16 @@
+rods = int(input("Rods: "))
+print(f'You input {rods} rods')
+print()
+
+metres = rods * 5.0292
+furlong = rods / 40
+mile = metres / 1609.34
+foot = metres / 0.3048
+avg_speed = mile/(3.1/60)
+
+print("Conversions")
+print(f'Meters: {metres}')
+print(f'Feet: {foot}')
+print(f'Miles: {mile}')
+print(f'Furlings: {furlong}')
+print(f'Minutes to walk {rods} rods: {avg_speed}')
